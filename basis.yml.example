@@ -1,0 +1,41 @@
+# For any currency you don't care about, set amount to 0 and it will be ignored
+
+btc:
+  amount:   1.00
+  price:    2.00
+  usd_cost: 3.00
+
+ftc:
+  amount:   0.00
+  price:    0.00
+  usd_cost: 0.00
+
+ltc:
+  amount:   0.00
+  price:    0.00
+  usd_cost: 0.00
+
+nmc:
+  amount:   0.00
+  price:    0.00
+  usd_cost: 0.00
+
+nvc:
+  amount:   0.00
+  price:    0.00
+  usd_cost: 0.00
+
+ppc:
+  amount:   0.00
+  price:    0.00
+  usd_cost: 0.00
+
+trc:
+  amount:   0.00
+  price:    0.00
+  usd_cost: 0.00
+
+xpm:
+  amount:   0.00
+  price:    0.00
+  usd_cost: 0.00
