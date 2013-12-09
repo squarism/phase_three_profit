@@ -17,23 +17,6 @@ class Pricer
       add_ticker_value(ticker, ticker_values)
     end
 
-    # nvc = Btce::Ticker.new "nvc_btc" if ticker_code_included?("nvc", tickers)
-    # ppc = Btce::Ticker.new "ppc_btc" if ticker_code_included?("ppc", tickers)
-    # trc = Btce::Ticker.new "trc_btc" if ticker_code_included?("trc", tickers)
-    # xpm = Btce::Ticker.new "xpm_btc" if ticker_code_included?("xpm", tickers)
-
-
-    # return hash of ticker values in opinionated formats
-    # {
-    #   btc: btc_in_usd,
-    #   ftc: ftc.last * btc_in_usd,
-    #   ltc: ltc.last * btc_in_usd,
-    #   nmc: nmc.last * btc_in_usd,
-    #   nvc: nvc.last * btc_in_usd,
-    #   ppc: ppc.last * btc_in_usd,
-    #   trc: trc.last * btc_in_usd,
-    #   xpm: xpm.last * btc_in_usd
-    # }
     ticker_values
   end
 

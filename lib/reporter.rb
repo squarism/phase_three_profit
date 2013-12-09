@@ -62,8 +62,3 @@ class Reporter
   end
 
 end
-
-require 'pry'
-# binding.pry
-
-puts Reporter.new.report
