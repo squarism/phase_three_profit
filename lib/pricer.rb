@@ -28,8 +28,13 @@ class Pricer
     if ticker == "btc"
       ticker_values[:btc] = @btc_in_usd
     else
-      market_price = Btce::Ticker.new "#{ticker}_btc"
-      ticker_values[ticker.to_sym] = market_price.last * @btc_in_usd
+      begin
+        market_price = Btce::Ticker.new "#{ticker}_btc"
+        ticker_values[ticker.to_sym] = market_price.last * @btc_in_usd
+      rescue Exception => e
+        # TODO: find a way to capture bad json parsing thrown by library.
+        puts e.message
+      end
     end
   end
 

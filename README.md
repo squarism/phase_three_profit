@@ -7,7 +7,7 @@ This program is READ-ONLY.  Don't worry.  It just uses your standings for report
 and put in some BS numbers if you want and see how it works.  It's really just a spreadsheet
 that can hit the web to get prices for you automatically.
 
-![image](https://raw.github.com/squarism/phase_three_profit/master/img/report_color_table.png)
+![image](https://raw.github.com/squarism/phase_three_profit/master/img/report_table.png)
 
 
 ## Setup
