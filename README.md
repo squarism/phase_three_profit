@@ -13,10 +13,10 @@ that can hit the web to get prices for you automatically.
 ## Setup
 
 ### Phase One - Api Key for Price Updates
-You have to sign up for an account at btc-e.com (you might already have one if you're doing bitcoin stuff).  
+You have to sign up for an account at btc-e.com (you might already have one if you're doing bitcoin stuff).
 
 - Generate an api key at btc-e.com under 'Profile -> API Keys'
-- Set your API Key to **Info Only** 
+- Set your API Key to **Info Only**
 - Copy `btce-api-key.yml.example` to `btce-api-key.yml`
 - Put your api key and secret into btce-api-key.yml.
 
@@ -53,11 +53,14 @@ Then save the file as basis.yml.
 You need a Ruby environment up and running.  The one that comes with Mac 10.9 is probably ok but it's probably going to need a your password.  If you don't like that, install Ruby with RVM.  If you don't know what all this means, sorry.  Deploying ruby apps kind of sucks.  I'm looking at alternatives.
 
     $ bundle
-    $ bundle exec rake report
+    $ rake report
 
 ![image](https://raw.github.com/squarism/phase_three_profit/master/img/underpants.png)
 
+## Paranoia
+Maybe you want to hide your totals (for example, the screenshot above).
 
+    $ rake test_mode
 
 ## TODO
 - Turn into a long running process like top.
