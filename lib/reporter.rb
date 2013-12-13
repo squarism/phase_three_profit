@@ -8,7 +8,7 @@ class Reporter
 
   def initialize(test_mode=false)
     @multiplier = 1         if !test_mode
-    @multiplier = rand(10000) if test_mode
+    @multiplier = rand(123456) if test_mode
   end
 
   def costs

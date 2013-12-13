@@ -1,4 +1,6 @@
 # Phase Three Profit
+![image](https://raw.github.com/squarism/phase_three_profit/master/img/report_table.png)
+
 This is a small console app that reports your standings and (hopefull) profits
 depending on your cost basis.  Just fill in your cost details and it will
 tell you if you've made money or not
@@ -7,7 +9,6 @@ This program is READ-ONLY.  Don't worry.  It just uses your standings for report
 and put in some BS numbers if you want and see how it works.  It's really just a spreadsheet
 that can hit the web to get prices for you automatically.
 
-![image](https://raw.github.com/squarism/phase_three_profit/master/img/report_table.png)
 
 
 ## Setup
@@ -50,7 +51,7 @@ Then save the file as basis.yml.
 
 
 ### Phase Three - Profit!
-You need a Ruby environment up and running.  The one that comes with Mac 10.9 is probably ok but it's probably going to need a your password.  If you don't like that, install Ruby with RVM.  If you don't know what all this means, sorry.  Deploying ruby apps kind of sucks.  I'm looking at alternatives.
+You need a Ruby environment up and running.  The one that comes with Mac 10.9 is probably ok but it's probably going to need a your password.  If you don't like that, install Ruby with RVM.
 
     $ bundle
     $ rake report
